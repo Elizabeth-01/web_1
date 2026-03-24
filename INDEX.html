@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бібліотека</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Онлайн-бібліотека</h1>
+</header>
+
+<nav aria-label="Головне меню">
+    <ul>
+        <li><a href="#section1" aria-current="page">Каталог</a></li>
+        <li><a href="#section2">Жанри</a></li>
+        <li><a href="#section3">Автори</a></li>
+        <li><a href="#section4">Контакти</a></li>
+    </ul>
+</nav>
+
+<main>
+    <!-- Каталог -->
+    <section id="section1">
+        <h2 class="catalog-title">Каталог книг</h2>
+        <h3>Опис</h3>
+        <p>
+            Наша онлайн-бібліотека — це простір для тих, хто цінує українську літературу.
+            Тут ви знайдете твори класиків та сучасних авторів, різні жанри — від поезії
+            до драматичних творів. Каталог постійно оновлюється, щоб кожен читач міг
+            відкрити для себе щось нове та надихаюче.
+        </p>
+
+        <table>
+            <caption>Каталог книг</caption>
+            <thead>
+            <tr>
+                <th scope="col">Автор</th>
+                <th scope="col">Назва</th>
+                <th scope="col">Рік</th>
+                <th scope="col">Жанр</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Тарас Шевченко</th>
+                <td>Кобзар</td>
+                <td>1840</td>
+                <td>Поезія</td>
+            </tr>
+            <tr>
+                <th scope="row">Ліна Костенко</th>
+                <td>Маруся Чурай</td>
+                <td>1979</td>
+                <td>Роман</td>
+            </tr>
+            <tr>
+                <th scope="row">Іван Франко</th>
+                <td>Захар Беркут</td>
+                <td>1883</td>
+                <td>Повість</td>
+            </tr>
+            <tr>
+                <th scope="row">Леся Українка</th>
+                <td>Лісова пісня</td>
+                <td>1911</td>
+                <td>Драма</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="4">Всього книг: 4</td>
+            </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- Жанри -->
+    <section id="section2">
+        <h2>Жанри</h2>
+        <p>У бібліотеці представлені різні жанри:</p>
+        <ul>
+            <li>Поезія</li>
+            <li>Драма</li>
+            <li>Роман</li>
+            <li>Повість</li>
+        </ul>
+    </section>
+
+    <!-- Автори -->
+    <section id="section3">
+        <h2>Автори</h2>
+        <p>Відомі українські письменники та поети:</p>
+        <ul>
+            <li>Тарас Шевченко</li>
+            <li>Леся Українка</li>
+            <li>Іван Франко</li>
+            <li>Ліна Костенко</li>
+        </ul>
+        <figure>
+            <img src="Автори.png" alt="Портрети авторів" title="Автори" class="portrait">
+        </figure>
+    </section>
+</main>
+
+<section id="section4">
+    <h2>Контакти</h2>
+    <p>Зв’яжіться з нами:</p>
+    <ul>
+        <li><strong>Адреса:</strong> м. Київ, вул. Літературна, 10</li>
+        <li><strong>Телефон:</strong> +380 (44) 123-45-67</li>
+        <li><strong>Email:</strong> info@library.ua</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2026 Онлайн-бібліотека</p>
+</footer>
+</body>
+</html>

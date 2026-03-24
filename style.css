@@ -1,0 +1,122 @@
+/* Фон для всієї сторінки */
+body {
+    background-image: url("фон.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #FFDF00;
+    line-height: 1.6;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 2.2em;
+    color: #FFBF00;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #FFBF00;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #FFBF00;
+}
+
+/* Спеціально для заголовка "Каталог книг" */
+.catalog-title {
+    font-size: 2.4em;
+    color: #FFBF00;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Навігація */
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFBF00;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFBF00;
+}
+
+/* Таблиця */
+table {
+    width: 70%;                /* ширина таблиці, наприклад 70% */
+    max-width: 900px;          /* обмеження максимальної ширини */
+    margin: 20px auto;         /* автоматичні відступи зліва/справа = центрування */
+    border-collapse: collapse;
+    color: #FFBF00;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Заголовки колонок */
+thead th {
+    background-color: #f2f2f2; /* білий фон */
+    color: #FFBF00;
+}
+
+/* Заголовки рядків (автори) */
+tbody th {
+    background-color: transparent; /* прозорий фон */
+    color: #FFBF00;
+}
+
+/* Зображення */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Підвал */
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #225;
+}
+
+/* Масштабоване зображення авторів */
+.portrait {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
